@@ -23,3 +23,6 @@ backend/.env
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Frontend ignorado (alojado en Amazon S3, no requerido en EC2)
+frontend/
