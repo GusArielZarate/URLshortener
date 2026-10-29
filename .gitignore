@@ -1,0 +1,25 @@
+# Entornos virtuales de Python
+venv/
+backend/venv/
+env/
+.venv/
+
+# Archivos compilados y temporales
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno y credenciales (NUNCA subir a Git)
+.env
+backend/.env
+*.pem
+*.key
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
